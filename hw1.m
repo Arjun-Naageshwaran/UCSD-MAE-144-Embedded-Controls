@@ -66,4 +66,3 @@ D_z_evaluate = RR_evaluate(D_z, exp(1i*omega_bar*h)); %Evaluate z = exp(i*omega_
 
 gain = D_s_evaluate/D_z_evaluate; %Scale D(z) to equal D(s)
 D_z_result = gain*D_z;
-end
